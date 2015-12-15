@@ -10,6 +10,12 @@ This very first commits include my own implementation for handling RecyclerView'
 - 2015-12-15
   - First release. Including very based Adapter implementation which is less abstract, support a more powerful ViewHolder (which will ensure that your ViewHolder will correctly bind Data to its UI), and an implementation of OnItemClickListener. I borrow the idea from the legacy AdapterView<>.
 
+### More to go
+
+- [ ] I would like to implement the usage of Content Provider Cursor and other Database Libraries usage with RecyclerView, for example: Realm.
+- [ ] Item Animation and Decoration, inspired from the Video below.
+- [ ] Custom Layout Manager.
+- [ ] Will add more
 
 ### Some open source resources used in this project
 
