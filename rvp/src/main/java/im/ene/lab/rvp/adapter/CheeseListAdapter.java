@@ -89,7 +89,7 @@ public class CheeseListAdapter extends BaseListAdapter<Cheeses> {
     return sItems.size();
   }
 
-  private List<Cheeses> getRandomSublist(String[] array, int amount) {
+  List<Cheeses> getRandomSublist(String[] array, int amount) {
     ArrayList<Cheeses> list = new ArrayList<>(amount);
     Random random = new Random();
     while (list.size() < amount) {

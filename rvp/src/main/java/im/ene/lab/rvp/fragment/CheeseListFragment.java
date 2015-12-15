@@ -30,6 +30,7 @@ public class CheeseListFragment extends Fragment {
    * another callback to attach to Host Activity's lifecycle. IMO, Both are good practices.
    */
   private CheeseListAdapter.OnCheeseClickListener mClickListener;
+
   public CheeseListFragment() {
   }
 
@@ -68,7 +69,8 @@ public class CheeseListFragment extends Fragment {
     mClickListener = new CheeseListAdapter.OnCheeseClickListener() {
       @Override public void onIconClick(View iconView, Cheeses cheese) {
         if (getView() != null) {
-          Snackbar.make(getView(), cheese.getName(), Snackbar.LENGTH_LONG).show();
+          Snackbar.make(getView(), "Icon clicked: " + cheese.getName(), Snackbar.LENGTH_LONG)
+              .show();
         }
       }
 
