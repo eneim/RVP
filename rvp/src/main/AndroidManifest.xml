@@ -21,7 +21,7 @@
         </activity>
         <activity
             android:name=".activity.CheeseDetailActivity"
-            android:label="@string/title_activity_chees_detail"
+            android:label="@string/title_activity_cheese_detail"
             android:launchMode="singleTop"
             android:parentActivityName=".activity.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">

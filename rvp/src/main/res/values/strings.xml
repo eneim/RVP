@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">RVP</string>
-    <string name="title_activity_chees_detail">CheesDetailActivity</string>
+    <string name="app_name">RecyclerView Practice</string>
+    <string name="title_activity_cheese_detail">CheeseDetailActivity</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
