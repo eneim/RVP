@@ -40,11 +40,11 @@ public class CheeseListAdapter extends BaseListAdapter<Cheeses> {
     // setup Click event listener here
     viewHolder.setOnViewHolderClickListener(new View.OnClickListener() {
       @Override public void onClick(View v) {
-        if (mOnItemClickListener != null) {
+        if (CheeseListAdapter.this.mOnItemClickListener != null) {
           int adapterPosition = viewHolder.getAdapterPosition();
           // get this from Android Summit Video
           if (adapterPosition != RecyclerView.NO_POSITION) {
-            mOnItemClickListener.onItemClick(
+            CheeseListAdapter.this.mOnItemClickListener.onItemClick(
                 CheeseListAdapter.this, viewHolder, v, adapterPosition, getItemId(adapterPosition)
             );
           }
