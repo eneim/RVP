@@ -1,5 +1,4 @@
-# RVP
-Not bad RecyclerView Practices.
+## RVP: Some ~~Good~~ Not Bad RecyclerView Practices.
 
 <img src="https://raw.githubusercontent.com/eneim/RVP/master/art/web_hi_res_512.png" width="256">
 
@@ -25,7 +24,7 @@ This very first commits include my own implementation for handling RecyclerView'
 - Amazing Reference from [Android Summit Video - RecyclerView~](https://youtu.be/imsr8NrIAMs)
 - Some other open source libraries including [Picasso](https://github.com/square/picasso).
 
-# LICENSE
+## LICENSE
 
     Copyright 2015 Eneim Labs@eneim, nam@ene.im
 
