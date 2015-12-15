@@ -8,7 +8,9 @@ This very first commits include my own implementation for handling RecyclerView'
 ### Update
 
 - 2015-12-15
-  - First release. Including 
+  - First release. Including very based Adapter implementation which is less abstract, support a more powerful ViewHolder (which will ensure that your ViewHolder will correctly bind Data to its UI), and an implementation of OnItemClickListener. I borrow the idea from the legacy AdapterView<>.
+
+
 ### Some open source resources used in this project
 
 - Android Support Libraries (AppCompat, RecyclerView, Design, ...)
