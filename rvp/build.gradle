@@ -29,4 +29,7 @@ dependencies {
 
     compile "com.android.support:appcompat-v7:${support_libraries_version}"
     compile "com.android.support:recyclerview-v7:${support_libraries_version}"
+    compile "com.android.support:design:${support_libraries_version}"
+
+    compile 'com.squareup.picasso:picasso:2.5.2'
 }

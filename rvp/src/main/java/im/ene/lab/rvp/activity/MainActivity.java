@@ -1,7 +1,9 @@
-package im.ene.lab.rvp;
+package im.ene.lab.rvp.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import im.ene.lab.rvp.R;
 
 public class MainActivity extends AppCompatActivity {
 
