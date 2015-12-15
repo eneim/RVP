@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="im.ene.lab.rvp"
-          xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest
+    package="im.ene.lab.rvp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
         android:name=".App"
@@ -9,7 +10,9 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.MainActivity">
+        <activity
+            android:name=".activity.MainActivity"
+            android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -19,6 +22,7 @@
         <activity
             android:name=".activity.CheeseDetailActivity"
             android:label="@string/title_activity_chees_detail"
+            android:launchMode="singleTop"
             android:parentActivityName=".activity.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
