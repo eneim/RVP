@@ -1,17 +1,22 @@
-# RVP
-Not bad RecyclerView Practices.
+## RVP: Some ~~Good~~ Not Bad RecyclerView Practices.
 
 <img src="https://raw.githubusercontent.com/eneim/RVP/master/art/web_hi_res_512.png" width="256">
 
 This very first commits include my own implementation for handling RecyclerView's Item click event.
 
-### Update
+### 1. Update
 
 - 2015-12-15
   - First release. Including very based Adapter implementation which is less abstract, support a more powerful ViewHolder (which will ensure that your ViewHolder will correctly bind Data to its UI), and an implementation of OnItemClickListener. I borrow the idea from the legacy AdapterView<>.
 
+### 2. More to go
 
-### Some open source resources used in this project
+- [ ] I would like to implement the usage of Content Provider Cursor and other Database Libraries usage with RecyclerView, for example: Realm.
+- [ ] Item Animation and Decoration, inspired from the Video below.
+- [ ] Custom Layout Manager.
+- [ ] Will add more
+
+### 3. Some open source resources used in this project
 
 - Android Support Libraries (AppCompat, RecyclerView, Design, ...)
 - I borrow a lot of codes from [Cheesesquare](https://github.com/chrisbanes/cheesesquare)
@@ -19,7 +24,7 @@ This very first commits include my own implementation for handling RecyclerView'
 - Amazing Reference from [Android Summit Video - RecyclerView~](https://youtu.be/imsr8NrIAMs)
 - Some other open source libraries including [Picasso](https://github.com/square/picasso).
 
-# LICENSE
+## LICENSE
 
     Copyright 2015 Eneim Labs@eneim, nam@ene.im
 
