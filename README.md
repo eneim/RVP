@@ -5,6 +5,18 @@ Not bad RecyclerView Practices.
 
 This very first commits include my own implementation for handling RecyclerView's Item click event.
 
+### Update
+
+- 2015-12-15
+  - First release. Including 
+### Some open source resources used in this project
+
+- Android Support Libraries (AppCompat, RecyclerView, Design, ...)
+- I borrow a lot of codes from [Cheesesquare](https://github.com/chrisbanes/cheesesquare)
+- This black good looking [ICON](https://www.iconfinder.com/icons/326723/quilt_view_icon#size=128) was made better by [Android Asset Studio](http://romannurik.github.io/AndroidAssetStudio/)
+- Amazing Reference from [Android Summit Video - RecyclerView~](https://youtu.be/imsr8NrIAMs)
+- Some other open source libraries including [Picasso](https://github.com/square/picasso).
+
 # LICENSE
 
     Copyright 2015 Eneim Labs@eneim, nam@ene.im
